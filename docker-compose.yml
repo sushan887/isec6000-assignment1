@@ -3,7 +3,7 @@ version: "3.4"
 services:
   api:
     ports:
-      - 8000:8000
+      - 8001:8000
     build:
       context: ./saleor
       dockerfile: ./Dockerfile
